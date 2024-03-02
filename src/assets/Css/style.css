@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.custom-btn{
+    border: none!important;
+    font-size: small!important;
+}
+
+i {
+    font-size: small;
+    background: none;
+    margin: 0.5rem;
+}
+a{
+    text-decoration: none!important;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+.hero{
+    position: relative;
+}
+
+.hero-btn{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50);
+}
+.hd{
+    height: 30rem;
+}

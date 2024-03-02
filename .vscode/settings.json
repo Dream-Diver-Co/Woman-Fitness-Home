@@ -1,0 +1,36 @@
+{
+    "files.autoSave": "onFocusChange",
+    "vsintellicode.modelDownloadPath": "",
+    "prettier.bracketSameLine": true,
+    "auto-close-tag.activationOnLanguage": [
+
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "react",
+        "vue",
+        "python",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ],
+    "beautify.config": "",
+    "cSpell.customDictionaries": {
+
+    },
+    "cSpell.dictionaryDefinitions": [
+        
+    ]
+}
