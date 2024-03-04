@@ -71,3 +71,51 @@ img {
 		display: none;
 	}
 }
+
+@media screen and (max-width: 1024px) {
+	.hero{
+		min-height: 40vh;;
+	}
+}
+@media screen and (max-width: 992px) {
+	.stack-rotate1{
+		right: -6%;
+		top: -5%;
+	}
+	.stack-rotate2{
+		right: 0%;
+    	top: 6%;
+	}
+	.stack-rotate3{
+		right: 4%;
+    	top: -5%;
+	}
+	.hero{
+		min-height: 38vh
+	}
+	.card .image img{
+		height: 200px;
+	}
+}
+@media screen and (max-width: 430px){
+	.hero{
+		flex-direction: column-reverse
+	}
+	.stack-rotate1 {
+		right: 21%;
+		top: -42%;
+	}	
+	.stack-rotate2 {
+		right: -3%;
+    	top: -10%;
+	}	
+	.stack-rotate3 {
+		right: -27%;
+		top: 12%;
+	}
+	.hero-text {
+		position: relative;
+		top: -14%;
+		text-align: center;
+	}	
+}

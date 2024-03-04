@@ -1,72 +1,63 @@
-import React from 'react'
-import { FaSearch, FaShoppingBag } from "react-icons/fa";
-import { CiHeart } from "react-icons/ci";
-import 'bootstrap/dist/js/bootstrap'
-const Header = () => {
-  return (
-    <div>
-      <header>
-      <nav class="navbar bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-          <div>
-            <button
-              class="navbar-toggler custom-btn"
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#offcanvasNavbar"
-              aria-controls="offcanvasNavbar"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <FaSearch className='m-2 fs-3'/>
-          </div>
-          <div
-            class="offcanvas offcanvas-start"
-            tabindex="-1"
-            id="offcanvasNavbar"
-            aria-labelledby="offcanvasNavbarLabel"
-          >
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                Sportswear
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link" href="#"> Shop all Products</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"> New Releases</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"> Best Sellers </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"> Bundles</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#"> Shop by Category </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div>
-            <CiHeart className='m-2 fs-2 '/>
-            <FaShoppingBag className='m-2 fs-3'/>
-          </div>
-        </div>
-      </nav>
-    </header>
-    </div>
-  )
-}
+import React, { useState } from 'react';
+import 'bootstrap/dist/js/bootstrap';
+import {
+  MDBNavbar,
+  MDBContainer,
+  MDBNavbarBrand,
+  MDBNavbarToggler,
+  MDBNavbarItem,
+  MDBNavbarLink,
+  MDBCollapse,
+  MDBBtn,
+  MDBNavbarNav,
+  MDBIcon,
+  MDBInputGroup
+} from 'mdb-react-ui-kit';
 
-export default Header
+const Header = () => {
+  const [openNavNoTogglerThird, setOpenNavNoTogglerThird] = useState(false); // State variable and setter
+
+  return (
+    <>
+      <MDBNavbar expand='lg' light bgColor='light'>
+        <MDBContainer fluid>
+          <MDBNavbarToggler
+            type='button'
+            data-target='#navbarTogglerDemo03'
+            aria-controls='navbarTogglerDemo03'
+            aria-expanded='false'
+            aria-label='Toggle navigation'
+            onClick={() => setOpenNavNoTogglerThird(!openNavNoTogglerThird)}
+          >
+            <MDBIcon icon='bars' fas />
+          </MDBNavbarToggler>
+          <MDBNavbarBrand href='#'>Navbar</MDBNavbarBrand>
+          <MDBCollapse navbar open={openNavNoTogglerThird}>
+            <MDBNavbarNav className='mr-auto mb-2 mb-lg-0'>
+              <MDBNavbarItem>
+                <MDBNavbarLink active aria-current='page' href='#'>
+                  Home
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink href='#'>About</MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+              <MDBNavbarLink href='#'>Event</MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+              <MDBNavbarLink href='#'>Gallery</MDBNavbarLink>
+              </MDBNavbarItem>
+            </MDBNavbarNav>
+            <MDBInputGroup tag="form" className='d-flex w-auto mb-3'>
+              <input className='form-control' placeholder="Type query" aria-label="Search" type='Search' />
+              <MDBBtn outline>Search</MDBBtn>
+            </MDBInputGroup>
+          </MDBCollapse>
+        </MDBContainer>
+      </MDBNavbar>
+    </>
+  );
+};
+
+export default Header;
