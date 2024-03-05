@@ -3,28 +3,6 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer>
-        <section className="bg-warning">
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="text-center">
-                        <h4 className="">Join the community</h4>
-                        <p>Collect loyalty points and gain valuable benefits.</p>
-                        <a href="/" type="button" className="btn btn-light p-3 m-2">Become a member</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section className="bg-dark text-light">
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="text-center">
-                        <h4 className="">Enjoy The Difference</h4>
-                        <p>Elevate your fitness and wellness journey with Women's Best. Our athletic apparel and innovative supplements are designed to help you look,<br/> feel, and perform your best</p>
-                        <hr/>
-                    </div>
-                </div>
-            </div>
-        </section>
         <section className="m-3">
             <div className="container">
                 <div className="row">

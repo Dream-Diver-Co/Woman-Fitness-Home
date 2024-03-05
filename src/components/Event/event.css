@@ -1,0 +1,16 @@
+.eventDate {
+    background-color: rgba(29, 36, 239, 0.727);
+    width: 30px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+  }
+
+.eventDate .eventDateText {
+    transform: translatex(-40%) translateY(670%) rotate(90deg);
+    width: max-content;
+    color: rgb(255, 255, 255);
+}
+.text-scend{
+    color: #fc94a2;
+}
