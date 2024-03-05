@@ -4,17 +4,37 @@
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
-	justify-content: flex-end;
+	justify-content: center;
 	background-color: #fefefe;
 }
-
+.bg-gradient{
+	background: linear-gradient(45deg, #F97E8F 0%, #E390E5 100%);
+}
+.tex-head h1{
+	font-size: 4rem;
+	color: #231BD0;
+}
+.tex-head h1 span{
+	font-size: 5rem;
+	color: #f97e8f;
+	margin: 2rem;
+	padding-top: 1rem;
+}
 img {
 	display: block;
 	max-width: 100%;
 }
+.wd-60{
+	width: 60%;
+}
+.wd-40{
+	width: 40%;
+}
+.slide-main{
+	display: flex;
 
+}
 .stack {
-	width: 30%;
 	max-width: 400px;
 	box-shadow: 2px 3px 6px 1px rgba(0, 0, 0, 0.2), inset 1px 4px 10px 10px rgba(0, 0, 0, 0.19);
 }
@@ -59,8 +79,8 @@ img {
 	position: relative;
 }
 .image img{
-	width: 247px;
-	height: 309px;
+	width: 100vw;
+	height: 20rem;
 }
 .browser-warning {
 	margin-bottom: 4rem;
@@ -70,4 +90,52 @@ img {
 	.browser-warning {
 		display: none;
 	}
+}
+
+@media screen and (max-width: 1024px) {
+	.hero{
+		min-height: 40vh;;
+	}
+}
+@media screen and (max-width: 992px) {
+	.stack-rotate1{
+		right: -6%;
+		top: -5%;
+	}
+	.stack-rotate2{
+		right: 0%;
+    	top: 6%;
+	}
+	.stack-rotate3{
+		right: 4%;
+    	top: -5%;
+	}
+	.hero{
+		min-height: 38vh
+	}
+	.card .image img{
+		height: 200px;
+	}
+}
+@media screen and (max-width: 430px){
+	.hero{
+		flex-direction: column-reverse
+	}
+	.stack-rotate1 {
+		right: 21%;
+		top: -42%;
+	}	
+	.stack-rotate2 {
+		right: -3%;
+    	top: -10%;
+	}	
+	.stack-rotate3 {
+		right: -27%;
+		top: 12%;
+	}
+	.hero-text {
+		position: relative;
+		top: -14%;
+		text-align: center;
+	}	
 }
