@@ -1,0 +1,14 @@
+footer {
+    color: #bcbac1;
+
+}
+.subscribe-section {
+    position: relative;
+    background-color: #fcfcfc;
+}
+.subscribe-section .img-subscribe {
+    position: absolute;
+    width: 230px;
+    bottom: 0;
+    z-index: 1;
+}

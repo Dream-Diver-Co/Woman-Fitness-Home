@@ -35,8 +35,8 @@ const Event = () => {
     }
 ])
   return (
-    <div className='w-100' id='special'>
-        <div className='pt-5 rounded' style={{ backdropFilter: 'brightness(0) grayscale(100%)' }}>
+    <div className='container-flued w-100' id='special'>
+        <div className='row pt-5 rounded' style={{ backdropFilter: 'brightness(0) grayscale(100%)' }}>
             <div className='text-center text-light my-5'>
             <h1> <span className='text-scend fw-bold nuts-f'>Upcoming</span> Events</h1>
             </div>

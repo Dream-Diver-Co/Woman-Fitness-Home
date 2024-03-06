@@ -24,13 +24,14 @@ useEffect(() => {
   return () => clearInterval(interval);
 }, [index, texts.length]);
   return (
-    <div>
-      <div className="container-fluid bg-gradient ">
+    <div className='bg-dark'>
+      <div className="container-fluid ">
         <div className="row">
           <div className="hero">
             <div className="hero-text wd-40">
               <div className='tex-head'>
-                <h1 className='fw-bold'>A place for   
+                <h1 className='fw-bold' data-aos="fade-right">A place for 
+                <Button link="/" title="Book Now" />  
                 <FaRegArrowAltCircleRight />
                  <span style={{ opacity, transition: 'opacity 0.5s ease' }}>{texts[index]}</span> </h1>
                 
@@ -39,9 +40,8 @@ useEffect(() => {
               <div className="text-primary fw-medium">
                 <p>Lorem ipsum dolor, <br/>sit amet consectetur adipisicing elit. Odit, alias.</p>
               </div>
-              <Button link="/" title="Book Now" />
             </div>
-            <div className="slide-main wd-60">
+            <div className="slide-main wd-60" data-aos="fade-left">
             <StackLeft/>
             <StackMiddle/>
             <StackRight/>
