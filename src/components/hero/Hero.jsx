@@ -30,15 +30,15 @@ useEffect(() => {
           <div className="hero">
             <div className="hero-text wd-40">
               <div className='tex-head'>
-                <h1 className='fw-bold' data-aos="fade-right">A place for 
-                <Button link="/" title="Book Now" />  
+                <h1 className='fw-bold' data-aos="fade-right">A place for  
                 <FaRegArrowAltCircleRight />
                  <span style={{ opacity, transition: 'opacity 0.5s ease' }}>{texts[index]}</span> </h1>
                 
               </div>
               <hr/>
-              <div className="text-primary fw-medium">
-                <p>Lorem ipsum dolor, <br/>sit amet consectetur adipisicing elit. Odit, alias.</p>
+              <div className="text-primary hero-btn-middle fw-medium">
+              <Button className="text-center" link="/" title="Book Now" /> 
+                <p></p>
               </div>
             </div>
             <div className="slide-main wd-60" data-aos="fade-left">
