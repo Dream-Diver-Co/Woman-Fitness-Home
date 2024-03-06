@@ -5,7 +5,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #fefefe;
+	background-color: #050303;
 }
 .bg-gradient{
 	background: linear-gradient(45deg, #F97E8F 0%, #E390E5 100%);
