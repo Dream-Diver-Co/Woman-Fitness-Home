@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ebb021f2.css",
+    "main.js": "/static/js/main.0a46767a.js",
+    "static/js/453.325a547a.chunk.js": "/static/js/453.325a547a.chunk.js",
+    "static/media/Dream Diver.mp4": "/static/media/Dream Diver.e701285433a3d98a9221.mp4",
+    "static/media/thomas-serer-alUSb8lCE5s-unsplash.jpg": "/static/media/thomas-serer-alUSb8lCE5s-unsplash.b6aa50186a9fcad2170f.jpg",
+    "static/media/connor-coyne-OgqWLzWRSaI-unsplash.jpg": "/static/media/connor-coyne-OgqWLzWRSaI-unsplash.5d88934d77b93ddba966.jpg",
+    "static/media/evant3.jpg": "/static/media/evant3.e638b5eb1a93a497c9e6.jpg",
+    "static/media/fancy-crave-qowyMze7jqg-unsplash.jpg": "/static/media/fancy-crave-qowyMze7jqg-unsplash.9d738e668d6673440d8f.jpg",
+    "static/media/evant5.jpg": "/static/media/evant5.192911b15b04116d62a6.jpg",
+    "static/media/EFC_Gallery2.jpg": "/static/media/EFC_Gallery2.1ed6ca9bfc0f7a8c9f84.jpg",
+    "static/media/evant6.jpg": "/static/media/evant6.7e8ba2a1275e74aec11b.jpg",
+    "static/media/evant1.jpg": "/static/media/evant1.d50d4c8e1710edf83b22.jpg",
+    "static/media/sports3.jpeg": "/static/media/sports3.8a27593aee27b3ab91e9.jpeg",
+    "static/media/sports8.jpg": "/static/media/sports8.fa5f4dbf806d4b89c1be.jpg",
+    "static/media/sports6.jpeg": "/static/media/sports6.21c5fe4f8006cd119eb7.jpeg",
+    "static/media/sports1.jpg": "/static/media/sports1.45e9b109c6228959fd5f.jpg",
+    "static/media/sports2.jpeg": "/static/media/sports2.002f3ff349ca8b94e137.jpeg",
+    "static/media/sports5.jpeg": "/static/media/sports5.63aa368b78ec225c2e01.jpeg",
+    "static/media/sports7.jpeg": "/static/media/sports7.52fc1bda2f09f2d5759a.jpeg",
+    "static/media/sports4.jpeg": "/static/media/sports4.f1de8362f8486dc4f4f9.jpeg",
+    "static/media/evant2.jpg": "/static/media/evant2.43fe5a48de37fda742de.jpg",
+    "static/media/poll.jpg": "/static/media/poll.270a86531c9ee8d82310.jpg",
+    "static/media/poll1.webp": "/static/media/poll1.9048491251a08e9a823d.webp",
+    "static/media/evant4.jpg": "/static/media/evant4.b567b58d9823d3b8d267.jpg",
+    "static/media/poll6.webp": "/static/media/poll6.0c365997bbaab6fe65fe.webp",
+    "static/media/logo_icon_19.svg": "/static/media/logo_icon_19.088ea4f45b329bac952eddbe98045999.svg",
+    "index.html": "/index.html",
+    "main.ebb021f2.css.map": "/static/css/main.ebb021f2.css.map",
+    "main.0a46767a.js.map": "/static/js/main.0a46767a.js.map",
+    "453.325a547a.chunk.js.map": "/static/js/453.325a547a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebb021f2.css",
+    "static/js/main.0a46767a.js"
+  ]
+}
