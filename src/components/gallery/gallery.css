@@ -8,7 +8,9 @@
   padding: 5px 12px;
   margin-top: 5px;
 }
-
+.gallery {
+  column-count: 3;
+}
 .gallery .pics {
   -webkit-transition: all 350ms ease;
   transition: all 350ms ease;

@@ -27,11 +27,11 @@ const Hero = () => {
       <div className="container-fluid ">
         <div className="row">
           <div className="hero">
-            <div className="hero-text wd-40">
+            <div className="hero-text">
               <div className="tex-head">
                 <h1 className="fw-bold" data-aos="fade-right">
                   A place for
-                  <FaRegArrowAltCircleRight />
+                  <FaRegArrowAltCircleRight className="m-3" />
                   <span style={{ opacity, transition: "opacity 0.5s ease" }}>
                     {texts[index]}
                   </span>{" "}
@@ -43,7 +43,7 @@ const Hero = () => {
                 <p></p>
               </div>
             </div>
-            <div className="slide-main wd-60" data-aos="fade-left">
+            <div className="slide-main" data-aos="fade-left">
               <StackLeft />
               <StackMiddle />
               <StackRight />

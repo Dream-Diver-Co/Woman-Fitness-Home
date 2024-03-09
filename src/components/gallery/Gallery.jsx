@@ -25,7 +25,7 @@ const Gallery = () => {
   ];
   return (
     <>
-      <div className="text-center text-dark my-5">
+      <div className="text-center text-light my-5">
         <h1>
           {" "}
           Few <span className="text-scend fw-bold nuts-f">Moments</span> At

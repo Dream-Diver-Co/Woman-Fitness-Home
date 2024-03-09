@@ -50,7 +50,7 @@ const StackRight = () => {
   }, []);
   return (
     <div class="stack stack-rotate3 position-relative">
-      <div class="card">
+      <div class="slide-card">
         <a href="/">
           <div class="image">
             <img src={images[(currentImageIndex + 2) % images.length]} alt="" />
