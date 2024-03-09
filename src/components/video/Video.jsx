@@ -1,6 +1,7 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import "./video.css";
 import video from "../../assets/images/video/Dream Diver.mp4";
+
 const Video = () => {
   const videoRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
@@ -14,6 +15,22 @@ const Video = () => {
       setIsPlaying(false);
     }
   };
+
+  useEffect(() => {
+    const playPromise = videoRef.current.play();
+    if (playPromise !== undefined) {
+      playPromise
+        .then(() => {
+          // Autoplay started
+          setIsPlaying(true);
+        })
+        .catch((error) => {
+          // Autoplay was prevented
+          console.log("Autoplay prevented");
+        });
+    }
+  }, []);
+
   return (
     <div className="full-video">
       <video ref={videoRef} className="video" onClick={togglePlay} loop>

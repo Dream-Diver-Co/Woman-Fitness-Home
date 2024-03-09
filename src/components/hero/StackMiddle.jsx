@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../hero/Hero.css";
+import "./Hero.css";
 import slide1 from "../../assets/images/connor-coyne-OgqWLzWRSaI-unsplash.jpg";
 import slide2 from "../../assets/images/fancy-crave-qowyMze7jqg-unsplash.jpg";
 import slide3 from "../../assets/images/thomas-serer-alUSb8lCE5s-unsplash.jpg";
@@ -36,7 +36,7 @@ const StackMiddle = () => {
   }, []);
   return (
     <div class="stack stack-rotate2 position-relative">
-      <div class="card">
+      <div class="slide-card">
         <a href="/">
           <div class="image">
             <img src={images[(currentImageIndex + 1) % images.length]} alt="" />

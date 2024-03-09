@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../hero/Hero.css";
+import "./Hero.css";
 import slide1 from "../../assets/images/evant/evant1.jpg";
 import slide2 from "../../assets/images/evant/evant2.jpg";
 import slide3 from "../../assets/images/evant/evant3.jpg";
@@ -38,7 +38,7 @@ const StackLeft = () => {
   }, []);
   return (
     <div class="stack stack-rotate1 position-relative">
-      <div class="card">
+      <div class="slide-card">
         <a href="/">
           <div class="image">
             <img src={images[currentImageIndex]} alt="" />
