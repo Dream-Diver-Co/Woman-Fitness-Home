@@ -1,7 +1,9 @@
 .hero {
   font-family: "Inter", sans-serif;
   line-height: 1.5;
-  height: 90vh;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  height: auto;
   display: flex;
   width: 100%;
   align-items: center;
@@ -28,7 +30,6 @@
 }
 .tex-head h1 {
   font-size: 4rem;
-  color: #231bd0;
 }
 .tex-head h1 span {
   font-size: 5rem;
@@ -119,18 +120,31 @@ img {
   .hero {
     height: auto;
   }
-  .slide-card {
-    width: 200px;
-    height: 300px;
+  .stack {
+    width: 250px !important;
+    height: 350px !important;
   }
 }
 @media screen and (max-width: 768px) {
   .hero {
     height: auto;
-    flex-direction: column-reverse;
+    flex-direction: column;
+  }
+  .hero-slider {
+    margin-left: -6rem;
   }
   .slide-main {
     padding-top: 3rem;
+  }
+  .tex-head h1 {
+    font-size: 3rem;
+  }
+  .tex-head h1 span {
+    font-size: 4rem;
+  }
+  .stack {
+    width: 40vw !important;
+    height: 400px !important;
   }
 }
 
@@ -138,12 +152,18 @@ img {
   .hero {
     height: auto !important;
   }
+  .hero-slider {
+    margin: 0 auto;
+  }
   .slide-main {
     margin-left: -20px;
   }
+  .stack {
+    height: auto !important;
+  }
   .slide-card {
-    width: 40vw;
-    height: 200px;
+    width: 40vw !important;
+    height: 200px !important;
   }
   .stack-rotate1 {
     top: 0;

@@ -1,8 +1,6 @@
 /* card */
 .ft-fixed-area {
   position: relative;
-  top: -3rem;
-  left: 7%;
 }
 
 .ft-fixed-area .reservation-box {
@@ -17,7 +15,7 @@
 
 .ft-fixed-area .reservation-wrap {
   border: 1px solid #fff;
-  padding: 10px 25px 25px;
+  padding: 10px 20px 20px;
   position: relative;
 }
 
@@ -48,7 +46,6 @@
   background-color: #fff;
 }
 .ft-fixed-area .reservation-wrap .res-title {
-  font-size: 40px;
   text-align: center;
   font-family: "Rancho", cursive;
 }
@@ -83,7 +80,7 @@
 /* responsive  */
 @media (max-width: 912px) {
   .ft-fixed-area {
-    top: 4rem;
+    top: 2rem;
   }
 }
 @media (max-width: 500px) {

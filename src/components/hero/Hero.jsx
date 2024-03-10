@@ -5,6 +5,7 @@ import StackMiddle from "./StackMiddle";
 import Button from "../button/Button";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import StackRight from "./StackRight";
+import HeroSlider from "./HeroCard";
 
 const Hero = () => {
   // ---------> event animation  <-------------
@@ -29,7 +30,7 @@ const Hero = () => {
           <div className="hero">
             <div className="hero-text">
               <div className="tex-head">
-                <h1 className="fw-bold" data-aos="fade-right">
+                <h1 className="fw-bold text-light" data-aos="fade-right">
                   A place for
                   <FaRegArrowAltCircleRight className="m-3" />
                   <span style={{ opacity, transition: "opacity 0.5s ease" }}>
@@ -44,9 +45,10 @@ const Hero = () => {
               </div>
             </div>
             <div className="slide-main" data-aos="fade-left">
-              <StackLeft />
+              <HeroSlider />
+              {/* <StackLeft />
               <StackMiddle />
-              <StackRight />
+              <StackRight /> */}
             </div>
           </div>
         </div>

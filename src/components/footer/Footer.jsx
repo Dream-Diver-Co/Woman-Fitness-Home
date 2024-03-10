@@ -2,6 +2,7 @@ import React from "react";
 import "./footer.css";
 import logo from "../../assets/images/logo_icon_19.svg";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
+import { IoLogoLinkedin } from "react-icons/io5";
 import Map from "../map/Map";
 import ReservationCard from "../reservationCard/ReservationCard";
 const Footer = () => {
@@ -9,10 +10,10 @@ const Footer = () => {
     <>
       <footer
         id="footer"
-        className="bg-dark w-100 text-white text-center text-md-start py-5">
+        className="bg-dark text-white text-center text-md-start">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-md-4 col-lg-2 mb-3">
+            <div className="col">
               <img
                 loading="lazy"
                 src={logo}
@@ -43,29 +44,38 @@ const Footer = () => {
               <ul className="social-nav navbar-nav flex-row justify-content-center justify-content-md-start mb-4">
                 <li className="nav-item">
                   <a
-                    className="nav-link text-white"
+                    className="nav-link p-2 text-white"
                     href="/"
                     rel="noreferrer"
                     target="_blank">
-                    <FaFacebook />
+                    <FaFacebook className="fs-2" />
                   </a>
                 </li>
                 <li className="nav-item">
                   <a
-                    className="nav-link text-white"
+                    className="nav-link p-2  text-white"
                     href="/"
                     rel="noreferrer"
                     target="_blank">
-                    <FaInstagram />
+                    <FaInstagram className="fs-2" />
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a
+                    className="nav-link p-2  text-white"
+                    href="/"
+                    rel="noreferrer"
+                    target="_blank">
+                    <IoLogoLinkedin className="fs-2" />
                   </a>
                 </li>
               </ul>
             </div>
-            <div
+            {/* <div
               className="col-lg-3"
               style={{ overflow: "hidden", height: "350px" }}>
               <Map />
-            </div>
+            </div> */}
             {/* ------menu item footer----- */}
             {/* <div className="col-md-6 col-lg-3 mb-3">
               <ul className="navbar-nav">
@@ -92,7 +102,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div> */}
-            <div className="col-md-4 col-lg-2 mb-2">
+            <div className="col">
               <h2>CONTACT</h2>
               <div className="editable-text left">
                 <h2></h2>{" "}
@@ -109,25 +119,25 @@ const Footer = () => {
                   <br />
                   <a href="/">info@rotterdamp.com</a>
                   <br />
-                  <a href="https://rotterdamp.com/">rotterdamp.com</a>
+                  <a href="/">example.com</a>
                 </p>
               </div>
             </div>
             {/* start card */}
-            <div className="col-md-8 col-lg-5 mb-4">
+            <div className="col">
               <ReservationCard />
               {/* end card */}
             </div>
           </div>
         </div>
       </footer>
-      <div id="dream-diver" className="bg-dark w-100 text-white py-2">
+      <div id="dream-diver" className="bg-dark w-100 text-white mb-0">
         <div className="container">
           <p className="text-end mb-0">
             Developed
             <a
               href="https://www.linkedin.com/in/sakib6619/"
-              className="text-light">
+              className=" text-light">
               {" "}
               by
             </a>{" "}
