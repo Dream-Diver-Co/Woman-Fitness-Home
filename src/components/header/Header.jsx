@@ -5,13 +5,15 @@ import "./Header.css";
 const Header = () => {
   return (
     <>
-      <nav className="navbar heder-bg navbar-expand-lg bg-body-tertiary">
+      <nav
+        className="navbar bg-dark  navbar-expand-lg bg-body-tertiary"
+        data-bs-theme="dark">
         <div className="container">
           <a className="navbar-brand" href="/">
             <img src={logo} className="nav-brand-height" alt="logo" />
           </a>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler color-light"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"

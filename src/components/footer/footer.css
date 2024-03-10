@@ -1,6 +1,12 @@
 footer {
   color: #bcbac1;
 }
+@media screen and (max-width: 768px) {
+  footer .row {
+    flex-direction: column !important;
+  }
+}
+
 .subscribe-section {
   position: relative;
   background-color: #fcfcfc;
@@ -10,4 +16,29 @@ footer {
   width: 230px;
   bottom: 0;
   z-index: 1;
+}
+.btn-book-now.btn-book-now-footer {
+  background-color: warning !important;
+  border-color: info !important;
+  color: #fff !important;
+}
+.btn-book-now.btn-book-now-footer span {
+  border-color: #000;
+}
+/* btn-find */
+.btn-find {
+  padding: 0.375rem 3rem;
+}
+
+/* .h1-margin-bottom */
+.h1-margin-bottom {
+  /* text-transform: uppercase; */
+  margin-bottom: 3rem;
+  position: relative;
+  display: inline-block;
+}
+.text-dreamDiver {
+  color: #d7d225;
+  text-decoration: none;
+  font-weight: bold;
 }
