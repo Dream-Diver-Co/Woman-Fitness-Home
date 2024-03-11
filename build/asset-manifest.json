@@ -1,15 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.32d807f0.css",
-    "main.js": "/static/js/main.b32b0629.js",
+    "main.css": "/static/css/main.333c9b85.css",
+    "main.js": "/static/js/main.bb6e5d8a.js",
     "static/js/453.325a547a.chunk.js": "/static/js/453.325a547a.chunk.js",
     "static/media/Dream Diver.mp4": "/static/media/Dream Diver.e701285433a3d98a9221.mp4",
-    "static/media/thomas-serer-alUSb8lCE5s-unsplash.jpg": "/static/media/thomas-serer-alUSb8lCE5s-unsplash.b6aa50186a9fcad2170f.jpg",
-    "static/media/connor-coyne-OgqWLzWRSaI-unsplash.jpg": "/static/media/connor-coyne-OgqWLzWRSaI-unsplash.5d88934d77b93ddba966.jpg",
     "static/media/evant3.jpg": "/static/media/evant3.e638b5eb1a93a497c9e6.jpg",
-    "static/media/fancy-crave-qowyMze7jqg-unsplash.jpg": "/static/media/fancy-crave-qowyMze7jqg-unsplash.9d738e668d6673440d8f.jpg",
     "static/media/evant5.jpg": "/static/media/evant5.192911b15b04116d62a6.jpg",
-    "static/media/EFC_Gallery2.jpg": "/static/media/EFC_Gallery2.1ed6ca9bfc0f7a8c9f84.jpg",
     "static/media/evant6.jpg": "/static/media/evant6.7e8ba2a1275e74aec11b.jpg",
     "static/media/evant1.jpg": "/static/media/evant1.d50d4c8e1710edf83b22.jpg",
     "static/media/sports3.jpeg": "/static/media/sports3.8a27593aee27b3ab91e9.jpeg",
@@ -27,12 +23,12 @@
     "static/media/poll6.webp": "/static/media/poll6.0c365997bbaab6fe65fe.webp",
     "static/media/logo_icon_19.svg": "/static/media/logo_icon_19.088ea4f45b329bac952eddbe98045999.svg",
     "index.html": "/index.html",
-    "main.32d807f0.css.map": "/static/css/main.32d807f0.css.map",
-    "main.b32b0629.js.map": "/static/js/main.b32b0629.js.map",
+    "main.333c9b85.css.map": "/static/css/main.333c9b85.css.map",
+    "main.bb6e5d8a.js.map": "/static/js/main.bb6e5d8a.js.map",
     "453.325a547a.chunk.js.map": "/static/js/453.325a547a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32d807f0.css",
-    "static/js/main.b32b0629.js"
+    "static/css/main.333c9b85.css",
+    "static/js/main.bb6e5d8a.js"
   ]
 }

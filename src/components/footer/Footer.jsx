@@ -24,7 +24,7 @@ const Footer = () => {
               />
               <div className="editable-text left">
                 <h2></h2>
-                <p>Women Fines Home &nbsp;</p>
+                <p> Rotterdamp &nbsp;</p>
                 <p>
                   <strong>Locate</strong>
                   <br />
@@ -41,7 +41,7 @@ const Footer = () => {
                 </p>
               </div>
 
-              <ul className="social-nav navbar-nav flex-row justify-content-center justify-content-md-start mb-4">
+              <ul className="icon-center social-nav navbar-nav flex-row justify-content-center justify-content-md-start mb-4">
                 <li className="nav-item">
                   <a
                     className="nav-link p-2 text-white"
