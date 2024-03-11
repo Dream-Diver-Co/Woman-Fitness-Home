@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../hero/Hero.css";
-import StackLeft from "./StackLeft";
-import StackMiddle from "./StackMiddle";
+// import StackLeft from "./StackLeft";
+// import StackMiddle from "./StackMiddle";
 import Button from "../button/Button";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import StackRight from "./StackRight";
@@ -24,7 +24,7 @@ const Hero = () => {
     return () => clearInterval(interval);
   }, [index, texts.length]);
   return (
-    <div className="bg-dark">
+    <div className="bg-dark my-5">
       <div className="container-fluid ">
         <div className="row">
           <div className="hero">

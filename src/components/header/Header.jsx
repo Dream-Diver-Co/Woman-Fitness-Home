@@ -1,12 +1,30 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import logo from "../../assets/images/logo_icon_19.svg";
 import Button from "../button/Button";
 import "./Header.css";
 const Header = () => {
+  const [scrolling, setScrolling] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      if (scrollPosition > 50) {
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
       <nav
-        className="navbar bg-dark  navbar-expand-lg bg-body-tertiary"
+        className={`navbar ${scrolling ? "bg-dark" : "heder-bg"}  navbar-expand-lg bg-body-tertiary fixed-top`}
         data-bs-theme="dark">
         <div className="container">
           <a className="navbar-brand" href="/">
