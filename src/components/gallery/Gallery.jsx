@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./gallery.css";
 import image0 from "../../assets/images/Sports/sports3.jpeg";
 import image2 from "../../assets/images/Sports/sports4.jpeg";
@@ -10,19 +10,22 @@ import image7 from "../../assets/images/Sports/sports7.jpeg";
 import image8 from "../../assets/images/poll.jpg";
 import image9 from "../../assets/images/evant/evant3.jpg";
 import image1 from "../../assets/images/evant/evant3.jpg";
+import { lazy } from "react";
 const Gallery = () => {
-  const image = [
+  const [match, setmatch] = useState(false);
+  const [images, setimages] = useState([
     image1,
     image2,
     image3,
     image4,
     image5,
     image6,
+    image6,
     image7,
     image8,
     image9,
     image0,
-  ];
+  ]);
   return (
     <>
       <div className="text-center text-light my-5">
@@ -34,15 +37,15 @@ const Gallery = () => {
       </div>
       <div className="gallery">
         <div className="column">
-          {image.map((image, index) => (
+          {images.map((image, index) => (
             <div className="pics" key={index}>
               <img
                 className={`image-${index}`}
                 src={image}
                 alt={index}
-                data-aos="flip-left"
-                data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000"
+                onLoad={lazy}
+                data-aos={index % 2 == 0 ? "zoom-in-down" : "zoom-in-up"}
+                data-aos-duration="1000"
                 style={{ width: "100%", height: "auto" }}
               />
             </div>

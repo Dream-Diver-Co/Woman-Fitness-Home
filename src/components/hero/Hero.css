@@ -35,7 +35,7 @@
 }
 
 .tex-head h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .tex-head h1 span {
@@ -139,7 +139,7 @@ img {
 
 @media screen and (min-width: 1440px) {
   .hero {
-    padding-top: 9rem;
+    padding-top: 14rem;
     padding-bottom: 10rem;
   }
 }
@@ -164,7 +164,7 @@ img {
   .hero {
     height: auto;
     flex-direction: column;
-    padding: 1.5rem 0;
+    padding: 7.5rem 0;
   }
 
   .hero-slider {
@@ -192,6 +192,7 @@ img {
 @media screen and (max-width: 430px) {
   .hero {
     height: auto !important;
+    padding: 5.5rem 0;
   }
 
   .hero-slider {
@@ -201,7 +202,10 @@ img {
   .slide-main {
     margin-left: -20px;
   }
-
+  .full-video .video {
+    height: auto;
+    top: 35%;
+  }
   .stack {
     height: auto !important;
   }
