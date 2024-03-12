@@ -33,6 +33,7 @@ const Hero = () => {
                 <h1 className="fw-bold text-light" data-aos="fade-right">
                   A place for
                   <FaRegArrowAltCircleRight className="m-3" />
+                  <br />
                   <span style={{ opacity, transition: "opacity 0.5s ease" }}>
                     {texts[index]}
                   </span>{" "}
