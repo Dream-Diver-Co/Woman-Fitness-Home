@@ -5,3 +5,9 @@
 .nav-brand-height {
   height: 50px !important;
 }
+
+@media screen and (max-width: 768px) {
+  .btn-design {
+    margin: 0 !important;
+  }
+}
